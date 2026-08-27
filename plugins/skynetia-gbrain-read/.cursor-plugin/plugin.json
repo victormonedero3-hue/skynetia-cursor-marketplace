@@ -1,12 +1,14 @@
 {
   "name": "skynetia-gbrain-read",
   "displayName": "SkynetIA GBrain Read",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Acceso de solo lectura al conocimiento y al grafo de SkynetIA mediante GBrain.",
   "author": {
     "name": "SkynetIA",
     "email": "it@gcorehub.com"
   },
+  "homepage": "https://gbrain.skynetia.es",
+  "repository": "https://github.com/victormonedero3-hue/skynetia-cursor-marketplace",
   "license": "MIT",
   "keywords": [
     "gbrain",
@@ -15,5 +17,18 @@
     "skynetia",
     "read-only"
   ],
-  "mcpServers": "mcp.json"
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "GBRAIN_READ_TOKEN": {
+        "type": "string",
+        "title": "GBrain read-only token",
+        "description": "Credencial Bearer individual con alcance exclusivo de lectura para GBrain."
+      }
+    },
+    "required": [
+      "GBRAIN_READ_TOKEN"
+    ]
+  }
 }

@@ -1,6 +1,6 @@
-# SkynetIA Private Marketplace
+# SkynetIA Cursor Marketplace
 
-Marketplace privado de Cursor/Grok Bot para los conectores internos de SkynetIA.
+Marketplace público de plugins seguros desarrollados por SkynetIA para Cursor y Grok Bot.
 
 ## Plugin incluido
 
@@ -8,12 +8,12 @@ Marketplace privado de Cursor/Grok Bot para los conectores internos de SkynetIA.
 
 El repositorio no contiene tokens, contraseñas ni datos de clientes.
 
-## Instalación para el equipo
+## Instalación
 
-1. En Cursor Dashboard, abrir **Plugins**.
-2. Añadir este repositorio como marketplace privado del equipo.
-3. Instalar `skynetia-gbrain-read`.
-4. Verificar que el fichero local de credencial indicado en `mcp.json` existe con permisos `0600`.
+1. Instalar `skynetia-gbrain-read` desde Cursor Marketplace.
+2. Abrir **Plugins → SkynetIA GBrain Read → Configure**.
+3. Guardar en `GBRAIN_READ_TOKEN` una credencial individual con alcance `read`.
+4. Verificar que el MCP aparece conectado.
 
 ## Verificación
 

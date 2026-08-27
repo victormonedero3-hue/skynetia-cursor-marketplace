@@ -1,12 +1,19 @@
 # SkynetIA GBrain Read
 
-Conector MCP de solo lectura para consultar la memoria y el grafo de SkynetIA desde Cursor/Grok Bot.
+Conector MCP de solo lectura para consultar la memoria y el grafo de SkynetIA desde Cursor y Grok Bot.
+
+## Instalación
+
+1. Instala el plugin desde Cursor Marketplace.
+2. Abre `Plugins → SkynetIA GBrain Read → Configure`.
+3. Guarda en `GBRAIN_READ_TOKEN` una credencial individual con alcance `read`.
+4. Comprueba que `skynetia-gbrain-read` aparece conectado antes de consultarlo.
 
 ## Seguridad
 
-- La credencial permanece en un fichero local `0600` y el puente la lee solo en memoria.
+- Cursor guarda la credencial mediante la variable segura `GBRAIN_READ_TOKEN`.
 - El repositorio nunca contiene el valor real del token.
-- La credencial provisionada en producción tiene alcance `read`.
+- Cada usuario debe recibir una credencial individual con alcance `read`.
 - No usar este plugin para importar, modificar o borrar contenido.
 
 ## Uso recomendado

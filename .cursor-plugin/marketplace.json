@@ -1,13 +1,13 @@
 {
-  "name": "skynetia-private-marketplace",
-  "displayName": "SkynetIA Private Marketplace",
+  "name": "skynetia-marketplace",
+  "displayName": "SkynetIA Marketplace",
   "owner": {
     "name": "SkynetIA",
     "email": "it@gcorehub.com"
   },
   "metadata": {
-    "description": "Conectores privados y seguros para el equipo SkynetIA.",
-    "version": "1.0.0",
+    "description": "Conectores seguros y de alcance limitado desarrollados por SkynetIA.",
+    "version": "1.1.0",
     "pluginRoot": "plugins"
   },
   "plugins": [
