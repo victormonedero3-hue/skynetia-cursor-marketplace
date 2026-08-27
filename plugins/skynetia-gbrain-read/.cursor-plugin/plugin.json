@@ -15,18 +15,5 @@
     "skynetia",
     "read-only"
   ],
-  "mcpServers": "mcp.json",
-  "variables": {
-    "type": "object",
-    "properties": {
-      "GBRAIN_READ_TOKEN": {
-        "type": "string",
-        "title": "Token GBrain de solo lectura",
-        "description": "Credencial Bearer con scope read para https://gbrain.skynetia.es/mcp"
-      }
-    },
-    "required": [
-      "GBRAIN_READ_TOKEN"
-    ]
-  }
+  "mcpServers": "mcp.json"
 }

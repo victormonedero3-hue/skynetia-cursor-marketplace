@@ -4,8 +4,8 @@ Conector MCP de solo lectura para consultar la memoria y el grafo de SkynetIA de
 
 ## Seguridad
 
-- La credencial se introduce como variable segura en Cursor.
-- El repositorio contiene únicamente `${GBRAIN_READ_TOKEN}`; nunca contiene el valor real.
+- La credencial permanece en un fichero local `0600` y el puente la lee solo en memoria.
+- El repositorio nunca contiene el valor real del token.
 - La credencial provisionada en producción tiene alcance `read`.
 - No usar este plugin para importar, modificar o borrar contenido.
 

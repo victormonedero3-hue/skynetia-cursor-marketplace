@@ -13,7 +13,7 @@ El repositorio no contiene tokens, contraseñas ni datos de clientes.
 1. En Cursor Dashboard, abrir **Plugins**.
 2. Añadir este repositorio como marketplace privado del equipo.
 3. Instalar `skynetia-gbrain-read`.
-4. Configurar la variable secreta `GBRAIN_READ_TOKEN`.
+4. Verificar que el fichero local de credencial indicado en `mcp.json` existe con permisos `0600`.
 
 ## Verificación
 

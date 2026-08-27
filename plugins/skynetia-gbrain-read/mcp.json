@@ -1,9 +1,13 @@
 {
   "mcpServers": {
     "skynetia-gbrain-read": {
-      "url": "https://gbrain.skynetia.es/mcp",
-      "headers": {
-        "Authorization": "Bearer ${GBRAIN_READ_TOKEN}"
+      "command": "node",
+      "args": [
+        "${PLUGIN_ROOT}/bin/gbrain-read-stdio.mjs"
+      ],
+      "env": {
+        "GBRAIN_MCP_URL": "https://gbrain.skynetia.es/mcp",
+        "GBRAIN_TOKEN_FILE": "/Users/victor/.codex/secrets/gbrain-growthvox-read.token"
       }
     }
   }
