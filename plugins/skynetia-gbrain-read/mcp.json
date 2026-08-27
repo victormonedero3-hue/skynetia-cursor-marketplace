@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "skynetia-gbrain-read": {
+      "url": "https://gbrain.skynetia.es/mcp",
+      "headers": {
+        "Authorization": "Bearer ${GBRAIN_READ_TOKEN}"
+      }
+    }
+  }
+}

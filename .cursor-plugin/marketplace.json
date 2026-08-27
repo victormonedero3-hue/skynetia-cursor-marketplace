@@ -1,0 +1,20 @@
+{
+  "name": "skynetia-private-marketplace",
+  "displayName": "SkynetIA Private Marketplace",
+  "owner": {
+    "name": "SkynetIA",
+    "email": "it@gcorehub.com"
+  },
+  "metadata": {
+    "description": "Conectores privados y seguros para el equipo SkynetIA.",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "skynetia-gbrain-read",
+      "source": "skynetia-gbrain-read",
+      "description": "Consulta GBrain de SkynetIA con una credencial limitada a lectura."
+    }
+  ]
+}
