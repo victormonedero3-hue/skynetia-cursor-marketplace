@@ -10,6 +10,7 @@
   "homepage": "https://gbrain.skynetia.es",
   "repository": "https://github.com/victormonedero3-hue/skynetia-cursor-marketplace",
   "license": "MIT",
+  "logo": "assets/skynetia-logo-square.png",
   "keywords": [
     "gbrain",
     "knowledge",
