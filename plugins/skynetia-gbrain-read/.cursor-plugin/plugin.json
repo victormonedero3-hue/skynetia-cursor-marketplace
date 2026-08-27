@@ -15,6 +15,7 @@
     "skynetia",
     "read-only"
   ],
+  "mcpServers": "mcp.json",
   "variables": {
     "type": "object",
     "properties": {
